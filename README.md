@@ -1,37 +1,25 @@
-## Welcome to GitHub Pages
+PubSubHubbub
+============
 
-You can use the [editor on GitHub](https://github.com/NurCookieGamerYT/Pika/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+__IMPORTANT NOTE__: The PubSubHubbub protocol has now been adopted by the W3C as a Candidate Recommendation. It's also been renamed [WebSub](https://github.com/w3c/websub) for clarity and concision. Please consider upgrading all older PubSubHubbub implementations to WebSub.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+**PubSubHubbub** is an open protocol for distributed publish/subscribe communication on the Internet. It generalizes the concept of webhooks
+and allows data producers and data consumers to work in a decoupled way.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+PubSubHubbub provides a way to subscribe, unsubscribe and receive updates from a resource, whether it's an RSS or Atom feed or any web accessible document (JSON...).
 
-```markdown
-Syntax highlighted code block
+The current version of the spec is 0.4. Please, [read it here](http://pubsubhubbub.github.io/PubSubHubbub/pubsubhubbub-core-0.4.html).
 
-# Header 1
-## Header 2
-### Header 3
+Open hubs are provided by:
+* [Superfeedr](http://pubsubhubbub.superfeedr.com/)
+* [Google](http://pubsubhubbub.appspot.com/)
+* Aaron Parecki: [p3k](https://switchboard.p3k.io/)
+* Christian Weiske: [phubb](http://phubb.cweiske.de/)
 
-- Bulleted
-- List
+Several other publishing platforms, like Wordpress, include their own hubs.
 
-1. Numbered
-2. List
+If you're looking for tutorials on how to get started with PubSubHubbub, check the links below:
+* [How to PubSubHubbub](http://blog.superfeedr.com/howto-pubsubhubbub/) by Superfeedr
+* [How to publish and consume PubSubHubbub](http://indiewebcamp.com/How_to_publish_and_consume_PubSubHubbub) on indiewebcamp.com
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/NurCookieGamerYT/Pika/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
